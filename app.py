@@ -21,7 +21,7 @@ available_indicators = df['NA_ITEM'].unique()
 available_geo = df['GEO'].unique()
 
 app.layout = html.Div([
-    html.H1(children='Data visualization project',style={'text-align':'left','color':'white'}),
+    html.H1(children='Clara Sarrano Cloud Computing Final Project',style={'text-align':'left','color':'white'}),
     html.Div([
         html.H2(children='First graph',style={'text-align':'left','color':'white','text-decoration': 'underline'}),
         html.Div([
